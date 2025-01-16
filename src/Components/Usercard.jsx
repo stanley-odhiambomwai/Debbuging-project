@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const UserCard = ({ name, age }) => {
   return (
@@ -10,4 +11,9 @@ const UserCard = ({ name, age }) => {
   );
 };
 
+
+UserCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
+};
 export default UserCard;

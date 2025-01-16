@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header.jsx';
 import Counter from './Cmponents/Counter.jsx';
+import UserCard from './Components/Usercard.jsx';
 
 const App = () => {
   return (
